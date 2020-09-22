@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Simple calculator</title>
+    <script src="./simplecalculator.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1> A SIMPLE CALCULATOR PROGRAM</h1>
+        <table style="background-color:yellow" align=="center">
+            <tr>
+                <td>
+                    <form method="get" action="">
+                        <div width=50% align="center">
+                            <label>OP1<input type="text" id="ip1" /></label>
+                            <label>op2<input type="text" id="ip2" /></label>
+                            <lablel>total<input type="text" id="output" /></label>
+                        </div>
+                        <br>
+                        <div width=50% align="center">
+                            <input type="button" value="+" id="add" onclick="call(this.id)" /><input type="button"
+                                value="-" id="sub" onclick="call(this.id)" /><input type="button" value="*" id="mul"
+                                onclick="call(this.id)" /><input type="button" value="/" id="div"
+                                onclick="call(this.id)" /><input type="reset" value="clear" /></ div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>
